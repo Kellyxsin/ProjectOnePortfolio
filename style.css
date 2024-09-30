@@ -1,20 +1,20 @@
 body {
   background-color: #ffc0cb; 
   color: #080606;
-  font-family: Economica;
+  font-family: Helvetica, sans-serif;
   margin: 0;
   padding: 0;
 }
 
 header {
   background-color: #ff9a9e;
+  color: white;
   padding: 20px;
   text-align: center;
-  color: white;
 }
 
-header h2 {
-  font-size: 2.5;
+header h1 {
+  margin: 2;
 }
 
 nav ul {
@@ -25,44 +25,60 @@ nav ul {
 
 nav ul li {
   display: inline;
-  margin: 0 15px;
+  padding: 0;
 }
 
 nav ul li a {
-  text-decoration: none;
+  text-decoration: underline;
   color: white;
-  font-size: 1.2em;
+  font-size: 1.2;
 }
 
 h2 {
-  font-size: 2em;
+  font-size: 2;
+  color: #f87164;
   margin-top: 20px;
   text-align: center;
-  color: #ff6f61;
+  
 }
 
-/* Sections */
-.Homepage-section, .inspirations-section, .list-section {
-  margin: 20px auto;
+.Homepage-section {
+  background-color: #ffc0cb;
+  margin: 20px;
   padding: 20px;
-  width: 80%;
-  background-color: #fff;
-  border-radius: 8px;
+  border: 8px;
 }
 
 .Me-section {
   display: flex;
   align-items: center;
+  padding: 15 px;
 }
 
 .me-pic {
   width: 200px;
-  border-radius: 50%;
   margin-right: 20px;
+  border-radius: 50%;
 }
 
-.inspiration-item {
-  margin: 20px 0;
+.links {
+  padding: 10px;
+  text-align: center;
+
+.gif {
+  text-align: center;
+  padding: 15;
+}
+
+footer {
+  background-color: #ffc0cb;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+}
+.inspiration {
+  margin: 20px;
   text-align: center;
 }
 
