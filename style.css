@@ -1,32 +1,75 @@
-* {
-
-    margin: 0;
-    padding: 0; 
- }
-
 body {
-    background-color: blue;
-    color: red;
-  }
-  
-  p {
-    color: #EB7F00;
-  
-    }
-  
-  h1 {
-    text-align: center;
-    font-size: 35px; 
-    font-weight: bold;
-  }
-  
-  p {
-    color: #eb0099;
-  
-    }
-  
-  h2 {
-    text-decoration: none;
-    
-  }
-  
+  font-family: Economica, sans-serif;
+  background-color: pink; 
+  color: #080606;
+  margin: 0;
+  padding: 0;
+}
+
+
+nav {
+  background-color: #333;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Main content styles */
+h1, h2 {
+  color: darkmagenta;
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 300px;
+  border: 2px solid #f3f2f2;
+}
+
+p {
+  padding: 20px;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+
+.list {
+  display: flex;
+  justify-content: space-around;
+  margin: 15 px;
+}
+
+.list img {
+  max-width: 100px;
+  border: 2px solid #f3e5e5;
+}
+
+.list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.list ul li {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.list ul li a {
+  color: darkorchid;
+  text-decoration: none;
+}
+
+.list ul li a:hover {
+  text-decoration: underline;
+}
