@@ -1,6 +1,6 @@
 body {
   font-family: Economica, sans-serif;
-  background-color: pink; 
+  background-color: #ffc0cb; 
   color: #080606;
   margin: 0;
   padding: 0;
@@ -10,11 +10,11 @@ body {
 nav {
   background-color: #333;
   padding: 10px;
-  text-align: center;
+  text-align: right;
 }
 
 nav a {
-  color: white;
+  color: #fff;
   margin: 0 15px;
   text-decoration: none;
   font-size: 18px;
@@ -25,8 +25,8 @@ nav a:hover {
 }
 
 /* Main content styles */
-h1, h2 {
-  color: darkmagenta;
+h1 {
+  color: #8b008b;
   text-align: center;
 }
 
@@ -47,7 +47,7 @@ p {
 .list {
   display: flex;
   justify-content: space-around;
-  margin: 15 px;
+  margin: 15px;
 }
 
 .list img {
@@ -66,7 +66,7 @@ p {
 }
 
 .list ul li a {
-  color: darkorchid;
+  color: #9932cc;
   text-decoration: none;
 }
 
