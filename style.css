@@ -6,80 +6,117 @@ body {
   padding: 0;
 }
 
-
-nav {
-  background-color: #333;
-  text-align: right;
-  padding: 10px;
-
-}
-
-nav a {
-  color: #fff;
-  text-decoration: none;
-  margin: 0 15px;
-  font-size: 18px;
-}
-
-nav a:hover {
-  text-decoration: underline;
-}
-
-
-h1 {
-  color: #8b008b;
-  text-align: center;
-}
-
-img {
-  display: block;
-  max-width: 200px;
-  margin: 0 auto;
-  border: 2px solid #f3f2f2;
-}
-
-p {
-  padding: 20px;
-  text-align: justify;
-  line-height: 1.5;
- 
-}
-
-footer {
-  background-color: black;
+header {
+  background-color: pink;
   color: white;
+  padding: 20px;
   text-align: center;
-  padding: 10px;
-  margin-top: 10px;
 }
 
-.list {
-  margin: 15px;
-  display: flex;
-  justify-content: space-around;
-  
-}
-
-.list img {
-  max-width: 130px;
-  border: 2px solid #f3e5e5;
-}
-
-.list ul {
-  list-style: none;
+nav ul {
+  list-style-type: none;
   padding: 0;
 }
 
-.list ul li {
-  margin-bottom: 10px;
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  
+}
+
+h1, h2 {
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+section {
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.profile-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.about-section p {
+  font-size: 1.1em;
+  width: 60%;
+}
+
+
+.gif-section {
   text-align: center;
 }
 
-.list ul li a {
-  color: #9932cc;
-  text-decoration: none;
+.fun-gif {
+  width: 200px;
+  height: auto;
+  margin-top: 20px;
+  border-radius: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-.list ul li a:hover {
-  text-decoration: underline;
+
+.inspirations-section, .likes-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+article, .list-section {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  width: 30%;
+}
+
+article img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.2);
+}
+
+.list-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.list-section ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.list-section ul li p {
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+
+footer {
+  background-color: #ff6666;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: relative;
+  width: 100%;
 }
